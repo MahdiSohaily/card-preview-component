@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | 3-column preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
-  
-  Sedans
-  Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
-  or on your next road trip.
-
-  SUVs
-  Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
-  and off-road adventures.
-
-  Luxury
-  Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
-  rental and arrive in style.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <div class="card">
+      <div class="sedans">
+        <header>
+          <img src="./images/icon-sedans.svg" alt="sedans cae icon">
+        </header>
+        <div class="content">
+          <h1>Sedans</h1>
+          <p>
+            Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+            or on your next road trip.
+          </p>
+        </div>
+        <footer>
+          <button class="text-orange">Learn More</button>
+        </footer>
+      </div>
+      <div class="suvs">
+        <header>
+          <img src="./images/icon-suvs.svg" alt="suvs cae icon">
+        </header>
+        <div class="content">
+          <h1>SUVs</h1>
+          <p>
+            Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+            and off-road adventures.
+          </p>
+        </div>
+        <footer>
+          <button class="text-cyan">Learn More</button>
+        </footer>
+      </div>
+      <div class="luxury text-dark-cyan">
+        <header>
+          <img src="./images/icon-luxury.svg" alt="Luxury cae icon">
+        </header>
+        <div class="content">
+          <h1>Luxury</h1>
+          <p>
+            Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+            rental and arrive in style.
+          </p>
+        </div>
+        <footer>
+          <button>Learn More</button>
+        </footer>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
