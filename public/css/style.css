@@ -144,6 +144,7 @@ button:hover {
 .card {
   display: grid;
   max-width: min(1000px, 90%);
+  margin-block: var(--size-200);
   grid-template-areas:
    "sedans"
    "suvs"
